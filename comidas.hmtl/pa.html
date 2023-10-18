@@ -1,0 +1,77 @@
+Claro, peço desculpas pela confusão. Aqui está o exemplo anterior em português:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem ao Lado do Texto</title>
+    <style>
+        .contenedor {
+            overflow: hidden;
+            /* Isso evita que o conteúdo ultrapasse a imagem */
+        }
+
+        .imagem {
+            float: left;
+            /* Opcional: você também pode usar 'float: right;' para alinhar à direita */
+            margin-right: 20px;
+            /* Espaço entre a imagem e o texto */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <img class="imagem" src="sua-imagem.jpg" alt="Descrição da imagem">
+        <p>
+            Este é um parágrafo de texto que aparecerá ao lado da imagem.
+            Você pode adicionar mais conteúdo aqui e ajustar o layout conforme necessário.
+        </p>
+    </div>
+
+</body>
+
+</html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem ao Lado do Texto</title>
+    <style>
+        .contenedor {
+            display: flex;
+            /* Use display: flex para criar um layout flexível */
+            align-items: center;
+            /* Alinhe os itens verticalmente ao centro */
+        }
+
+        .imagem {
+            width: 150px;
+            /* Ajuste a largura da imagem conforme necessário */
+            height: auto;
+            /* Isso mantém a proporção da imagem */
+            margin-right: 20px;
+            /* Espaço entre a imagem e o texto */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <img class="imagem" src="sua-imagem.jpg" alt="Descrição da imagem">
+        <p>
+            Este é um parágrafo de texto que aparecerá ao lado da imagem.
+            Você pode adicionar mais conteúdo aqui e ajustar o layout conforme necessário.
+        </p>
+    </div>
+
+</body>
+
+</html>
